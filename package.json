@@ -25,7 +25,8 @@
     "hubot-hipchat": "~2.6.4",
     "ical" : "",
     "request" : "",
-    "hubot-cron": ">= 0.1.0"
+    "hubot-cron": ">= 0.1.0",
+    "cron" : ""
   },
   "engines": {
     "node": ">= 0.8.x",
