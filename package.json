@@ -24,7 +24,8 @@
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-hipchat": "~2.6.4",
     "ical" : "",
-    "request" : ""
+    "request" : "",
+    "hubot-cron": ">= 0.1.0"
   },
   "engines": {
     "node": ">= 0.8.x",
