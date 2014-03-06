@@ -23,4 +23,4 @@ module.exports = (robot) ->
             message = message + "- #{menuitem.name} #{menuitem.price}\n"  if menuitem.price != ""
           msg.send message
         catch error
-          msg.send "Gem not found. It will be mine. Oh yes. It will be mine. *sinister laugh*"
+          msg.send "Couldn't get Naanu Menu, sry no food for you."
