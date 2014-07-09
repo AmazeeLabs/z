@@ -14,7 +14,7 @@
 
 module.exports = (robot) ->
   robot.respond /naanu/i, (msg) ->
-    msg.http("http://www.kimonolabs.com/api/7nxm7ms8?apikey=2072491dbe0b01c9504c3d2c953e8319")
+    msg.http("https://www.kimonolabs.com/api/7nxm7ms8?apikey=2072491dbe0b01c9504c3d2c953e8319")
       .get() (err, res, body) ->
         try
           json = JSON.parse(body)
