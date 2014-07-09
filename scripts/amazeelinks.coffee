@@ -29,11 +29,6 @@ drushdeploy = [
   "http://confluence.amazeelabs.com/display/KNOWLEDGE/Drush+Deploy+-+Install+and+Use"
   ]
 
-labsd8 = [
-  "Huh, if D8 and Vagrant confuses you, this might help:",
-  "http://confluence.amazeelabs.com/display/KNOWLEDGE/Amazee+Labs+Drupal+8+-+Getting+your+Vagrant+up"
-  ]
-
 
 module.exports = (robot) ->
   robot.respond /(url)?/i, (msg) ->
@@ -54,6 +49,4 @@ module.exports = (robot) ->
     if text.match(/drush-deploy/i)
       msg.send drushdeploy.join('\n')
 
-    if text.match(/labs/i)
-      msg.send labsd8.join('\n')
 
