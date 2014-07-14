@@ -26,7 +26,8 @@
     "ical" : "",
     "request" : "",
     "hubot-cron": ">= 0.1.0",
-    "cron" : ""
+    "cron" : "",
+    "jsdom": "0.2.14"
   },
   "engines": {
     "node": ">= 0.8.x",
