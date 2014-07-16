@@ -22,6 +22,6 @@ module.exports = (robot) ->
             message = message + "#{elem.message}\n"
             message = message + "#{elem.url}\n"
             message = message + "\n"
-            msg.send message
+          msg.send message
         catch error
           msg.send "Couldn't get Nine Status - Sorry I'm a bad robot #sadrobot"
