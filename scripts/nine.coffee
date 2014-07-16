@@ -16,7 +16,6 @@ module.exports = (robot) ->
       .get() (err, res, body) ->
         try
           json = JSON.parse(body)
-          message = "Nine Status:\n"
           for elem in json
             message = message + "(allthethings)#{elem.state} - #{elem.title}\n"
             message = message + "#{elem.message}\n"
