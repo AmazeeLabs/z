@@ -17,10 +17,11 @@ module.exports = (robot) ->
         try
           json = JSON.parse(body)
           for elem in json
+            message = ""
             message = message + "(allthethings)#{elem.state} - #{elem.title}\n"
             message = message + "#{elem.message}\n"
             message = message + "#{elem.url}\n"
             message = message + "\n"
-          msg.send message
+            msg.send message
         catch error
           msg.send "Couldn't get Nine Status - Sorry I'm a bad robot #sadrobot"
