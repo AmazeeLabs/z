@@ -14,11 +14,6 @@ elasticsearch = [
   "http://amazeeadmin.amazeeweb1.nine.ch/elasticsearch/"
   ]
 
-jenkins = [
-  "Jenkins can be accessed here:",
-  "http://jenkins.amazeelabs.com"
-  ]
-
 vagrant = [
   "(allthethings): Get yourself started with Vagrant",
   "http://confluence.amazeelabs.com/display/KNOWLEDGE/Vagrant"
@@ -39,9 +34,6 @@ module.exports = (robot) ->
 
     if text.match(/elasticsearch/i)
       msg.send elasticsearch.join('\n')
-
-    if text.match(/jenkins/i)
-      msg.send jenkins.join('\n')
 
     if text.match(/vagrant/i)
       msg.send vagrant.join('\n')
