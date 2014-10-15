@@ -6,7 +6,9 @@
 
 kibana = [
   "The Logfiles can be accessed here:",
-  "http://amazeeadmin.amazeeweb1.nine.ch/kibana/#/dashboard/elasticsearch/SyslogView"
+  "http://amazeeadmin.amazeeweb1.nine.ch/kibana/#/dashboard/elasticsearch/SyslogView",
+  "You need also to open an SSH Tunnel",
+  "/code ssh elasticsearch@amalabs3.nine.ch -N -L 9200:127.0.0.1:9200"
   ]
 
 elasticsearch = [
