@@ -6,14 +6,14 @@
 
 kibana = [
   "The Logfiles can be accessed here:",
-  "http://amazeeadmin.amazeeweb1.nine.ch/kibana/#/dashboard/elasticsearch/SyslogView",
+  "http://amazeeadmin.amazee.io.dev.dev1.compact.amazee.io/kibana/#/dashboard/elasticsearch/SyslogView",
   "You need also to open an SSH Tunnel:",
   "ssh elasticsearch@amalabs3.nine.ch -N -L 9200:127.0.0.1:9200"
   ]
 
 elasticsearch = [
   "Elasticsearch can be accessed here:",
-  "http://amazeeadmin.amazeeweb1.nine.ch/elasticsearch/"
+  "http://amazeeadmin.amazee.io.dev.dev1.compact.amazee.io/elasticsearch/"
   ]
 
 vagrant = [
