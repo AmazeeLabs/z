@@ -20,14 +20,15 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
+    "cron": "",
     "hubot": ">= 2.6.0 < 3.0.0",
-    "hubot-scripts": ">= 2.5.0 < 3.0.0",
-    "hubot-hipchat": "~2.6.4",
-    "ical" : "",
-    "request" : "",
     "hubot-cron": ">= 0.1.0",
-    "cron" : "",
-    "jsdom": "0.2.14"
+    "hubot-hipchat": "~2.6.4",
+    "hubot-scripts": ">= 2.5.0 < 3.0.0",
+    "hubot-slack": "^3.1.0",
+    "ical": "",
+    "jsdom": "0.2.14",
+    "request": ""
   },
   "engines": {
     "node": ">= 0.8.x",
